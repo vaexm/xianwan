@@ -1,0 +1,28 @@
+/*
+* @Author: Marte
+* @Date:   2017-09-07 15:56:16
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-07 15:56:31
+*/
+
+
+#ad_banner{width:1920px;height:510px;background:url(../images/ad_banner.jpg) center;}
+
+#ad_m1,#ad_m2,#ad_m3,#ad_m4{width:100%;}
+.ad_m1,.ad_m2,.ad_m3,.ad_m4{width:1200px;margin:0 auto;}
+
+.ad_title{width:1200px;margin:0 auto;padding-top:50px;text-align:center;}
+.ad_title h2{font-size:33px;color:#333;}
+.ad_title p{font-size:20px;color:#555;margin-top:30px;}
+
+#ad_m1{background:url(../images/ad_m1_bg.jpg) center;}
+.ad_m1{height:560px;background:url(../images/ad_m1_pic.png) no-repeat center;}
+
+#ad_m2{background:url(../images/ad_m2_bg.jpg) center;}
+.ad_m2{height:641px;background:url(../images/ad_m2_list.png) no-repeat center 180px;}
+
+#ad_m3{background:url(../images/ad_m3_bg.jpg) center;}
+.ad_m3{height:550px;background:url(../images/ad_m3_list.png) no-repeat center 150px;}
+
+#ad_m4{background:url(../images/ad_m4_bg.jpg) center;}
+.ad_m4{height:564px;background:url(../images/ad_m4_list.png) no-repeat center 180px;}

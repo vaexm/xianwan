@@ -1,0 +1,145 @@
+/*
+* @Author: Marte
+* @Date:   2017-09-07 14:51:19
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-07 14:54:46
+*/
+
+/*二级公共样式*/
+#sec_banner{width:100%;height:510px;background:url(../images/sec_banner.jpg) center center;}
+#sec_box{width:100%;height:auto;min-height:1000px;padding-bottom:20px;background:url(../images/sec_bg.jpg) top center;}
+.sec_box{width:1200px;margin:0 auto;height:auto;min-height:1000px;}
+
+.sec_tit{height:60px;text-align:center;margin:0 auto;padding-top:62px;}
+.sec_tit li{width:169px;height:60px;float:left;margin:0 10px;}
+.sec_tit li a{width:169px;height:60px;display:block;background:url(../images/sec_list_norma.png) no-repeat;font-size:16px;color:#888;line-height:50px;}
+.sec_tit li.selectTag{width:169px;height:60px;display:block;background:url(../images/sec_list_focused.png) no-repeat;font-size:16px;color:#fff;line-height:50px;}
+.sec_tit li.selectTag a{background:url(../images/sec_list_focused.png) no-repeat;font-size:16px;color:#fff;font-weight:normal;}
+#tagContent div.selectTag {display: block}
+
+.sec_list{width:1175px;height:auto;min-height:950px;margin:20px auto;box-shadow:0 0 3px 3px #e9e9e9;background:#fff;padding-top:10px;overflow:hidden;}
+
+/*新闻中心*/
+.sec_titnew{width:378px;}
+.sec_list_new ul{width:1060px;margin:20px auto;}
+.sec_list_new li{width:1060px;height:105px;float:left;border-bottom:1px solid #eaeaea;margin-top:10px;}
+.sec_list_new li span{float:left;width:1060px;height:36px;line-height:36px;}
+.sec_list_new li span h2{font-size:16px;color:#555;float:left;}
+.sec_list_new li span b{font-size:12px;color:#999;float:right;font-weight:normal;}
+.sec_list_new li p{width:1060px;height:60px;line-height:28px;font-size:13px;color:#888;}
+.hidding{ display:none;}
+
+.page{width:1200px;height:26px;margin:40px 0 0 60px;;float:left;}
+.page a{padding:2px 12px;background:#ebebeb;color:#888;margin-right:9px;}
+.page a:hover{background:#00a0e9;color:#fff;}
+.page a.hover{background:#00a0e9;color:#fff;}
+
+
+/*游戏分类*/
+.sec_titgame{width:567px;}
+.sec_game_box{width:1200px;height:auto;min-height:950px;margin:20px auto;}
+.sec_game_box ul{width:1200px;float:left;border-bottom:1px dotted #e0e0e0;}
+.sec_game_box ul li{float:left;width:240px;text-align:center;}
+.sec_game_box ul.game_tit{color:#555;font-size:20px;background:url(../images/sec_line.jpg) no-repeat top #eeeeee;height:70px;line-height:70px;}
+.sec_game_box ul.game_tit li img{ vertical-align:middle;margin:-4px 4px 0 0;}
+
+.sec_game_box ul.game_list1{height:85px;line-height:85px;background:#fdfdfe;font-size:16px;color:#888;}
+.sec_game_box ul.game_list1 li img.gamepic{width:70px;height:70px;border-radius:10px;margin-top:7px;}
+.sec_game_box ul.game_list1 li img.zhichi{width:29px;height:28px;margin-top:25px;}
+.sec_game_box ul.game_list1 li img.buzhichi{width:23px;height:23px;margin-top:25px;}
+.sec_game_box ul.bg1{background:#fefefe;}
+.sec_game_box ul.bg2{background:#fbfbfb;}
+.sec_game_box .gametishi{clear:both;width:234px;height:28px;line-height:28px;margin:0 auto;font-size:14px;color:#888;padding-top:20px;}
+.sec_game_box .gametishi img{margin:0 8px; vertical-align:bottom;}
+
+
+
+/*成功案例*/
+.sec_titcase{width:169px;}
+.sec_case{height:auto;min-height:640px;}
+.sec_case ul{width:1200px;height:380px;margin:20px auto;}
+.sec_case ul a li{float:left;width:230px;height:360px;border:10px solid #fff;display:block;background:#f2f2f2;box-shadow:0px 1px 3px 3px #dbdbdb;margin:0 15px 25px 25px; }
+.sec_case ul a li img{float:left;width:230px;height:194px;}
+.sec_case ul a li h3{width:230px;line-height:35px;text-align:center;font-size:14px;color:#555;font-weight:normal;}
+.sec_case ul a li b{width:210px;height:75px;background:#e9e9e9;display:block;line-height:25px;font-size:12px;color:#555;padding:5px 10px;font-weight:normal;}
+.sec_case ul a li span{width:230px;height:40px;display:block;background:url(../images/icon_more.png)  no-repeat center;}
+.sec_case ul a:hover li{float:left;width:230px;height:360px;border:10px solid #fff;display:block;background:#f2f2f2;box-shadow:0px 1px 6px 5px #b9b8b8; }
+
+
+/*详情页面*/
+.weizhi{width:1175px;height:50px;line-height:50px;font-size:16px;color:#555;padding-left:40px;background:url(../images/icon_weizhi.png) no-repeat 15px 15px;}
+.weizhi span{color:#999;margin:0 10px;}
+.three_page{width:1020px;margin:40px auto 0;height:auto;min-height:640px;}
+.three_page_t{width:1020px;height:140px;}
+.three_page_t img{width:140px;height:140px;float:left;border-radius:5px}
+.three_page_t span{float:left;margin-left:35px;}
+.three_page_t span h2{width:610px;height:40px;line-height:40px;font-size:20px;color:#555;}
+.three_page_t span p{width:610px;height:90px;line-height:35px;color:#888;}
+.three_page_t a{width:150px;height:34px;float:left;text-align:center;line-height:34px;color:#fff;background:#00a0e9;margin-top:100px;}
+.three_page_t a:hover{background:#f6ab00;}
+.three_page_box{width:1020px;height:auto;min-height:750px;padding-bottom:20px;}
+.three_page_box h3{width:1020px;height:45px;line-height:45px;font-size:16px;color:#555;border-bottom:1px solid #e7e5e5;font-weight:normal;margin:15px 0;}
+.three_page_box p{width:1020px;line-height:32px; text-indent:2em;color:#888;font-size:13px;}
+
+/*新闻详情页*/
+.three_page_new{width:1020px;height:90px;text-align:center;border-bottom:1px dotted #e3e3e3;margin-bottom:15px;}
+.three_page_new h2{width:1020px;font-size:18px;color:#555;line-height:45px;}
+.three_page_new b{font-weight:normal;color:#888;font-size:12px;}
+
+.three_newpage{width:1020px;height:90px;line-height:90px;margin:20px auto;color:#999;border-top:1px solid #eaeaea;}
+.three_newpage_l{float:left;}
+.three_newpage_r{float:right;}
+
+
+
+/*游戏下载*/
+.gamedownload{width:1020px;height:auto;overflow:hidden;min-height:1100px;margin:20px auto;}
+.gamedownload li{width:1020px;float:left;height:415px;}
+.gamedownload li h2{float:left;width:1020px;height:35px;background:#f7f7f7;font-size:20px;color:#555;text-align:center;line-height:35px;}
+.gamedownload li p{float:left;width:998px;min-height:50px;overflow:hidden;font-size:13px;color:#999;line-height:25px;border:1px dotted #f2f1f1;padding:10px;}
+.gamedownload li span{float:left;width:335px;height:250px;text-align:center;margin-top:20px;}
+.gamedownload li span.pc{width:150px;height:195px;float:left;margin-left:200px;}
+.gamedownload li span.pc h3{width:150px;font-size:20px;color:#555;text-align:center;line-height:30px;font-weight:normal;}
+.gamedownload li span.pc img.pc1{width:133px;height:128px;float:left;margin:25px 0 0 10px;}
+.gamedownload li span.pc a{width:150px;height:35px;line-height:35px;background:#ff9533;text-align:left;display:block;float:left;margin-top:15px;color:#fff;border-radius:20px;}
+.gamedownload li span.pc a:hover{background:#00a0e9;font-weight:normal;}
+.gamedownload li span.pc em.iconpc1{float:left;display:block;width:17px;height:16px;margin:11px 5px 0 18px;background:url(../images/icon_pc1.png) no-repeat;}
+.gamedownload li span.phone{width:335px;height:195px;float:right;margin-right:120px;}
+.gamedownload li span.phone h3{width:300px;font-size:20px;color:#555;text-align:center;line-height:30px;font-weight:normal;}
+.gamedownload li span.phone dl{width:142px;float:left;display:block;}
+.gamedownload li span.phone dl img.ewm{float:left;width:138px;height:138px;border:4px solid #d0d0d0;margin:23px 0 0 0px;display:block;}
+.gamedownload li span.phone dl dd{float:left;width:140px;line-height:30px;color:#888;text-align:left;margin-top:5px;}
+.gamedownload li span.phone dl dd em.iconandroid{float:left;display:block;width:18px;height:23px;margin:7px 3px 0 20px;background:url(../images/icon_android1.png) no-repeat;}
+.gamedownload li span.phone dl dd em.iconios{float:left;display:block;width:18px;height:23px;margin:7px 3px 0 25px;background:url(../images/icon_ios1.png) no-repeat;}
+.gamedownload li span.phone dl.mar20{margin-left:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
